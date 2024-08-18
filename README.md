@@ -4,7 +4,7 @@ Dự án này là một mô hình nhận diện chữ viết tay tiếng Việt 
 
 ## Cấu hình Mô hình
 
-- **Mô hình cơ sở (Base Model):** TrOCR
+- **Mô hình cơ sở (Base Model):** TrOCR Handwritten Base
 - **Tokenizer:** PhoBERT
 
 ## Kết quả Huấn luyện
