@@ -32,9 +32,9 @@ Dưới đây là bảng so sánh giữa mô hình TrOCR của bạn và các ph
 
 | Mô Hình                                                                                                     | Phương Pháp      | CER (Character Error Rate) |
 |------------------------------------------------------------------------------------------------------------|------------------|-----------------------------|
-| **TrOCR (Base Model) - Sử dụng PhoBERT làm tokenizer** [Link](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main) | Transformer-based | 0.0653                      |
-| **Vietnamese Handwritten Text Recognition Using TransformerOCR** [Link](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR) | Transformer-based | 0.1021                      |
-| **Vietnamese Handwriting Recognition OCR** [Link](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR) | LSTM/CTC          | 0.0476                      |
+| [**TrOCR Vietnamese (Our Model)**](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main) | Transformer-based | 0.0653                      |
+| [**Vietnamese Handwritten Text Recognition Using TransformerOCR**](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR) | Transformer-based | 0.1021                      |
+| [**Vietnamese Handwriting Recognition OCR**](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR) | LSTM/CTC          | 0.0476                      |
 
 ## Liên hệ
 
