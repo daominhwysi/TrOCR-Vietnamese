@@ -30,9 +30,9 @@ Pre-trained Model is available at [Hugging Face Model Hub](https://huggingface.c
 
 | Phương Pháp                                                                                                  | CER (Character Error Rate) |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------|
-| Transformer ([Vietnamese Handwritten Text Recognition Using TransformerOCR](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR)) | 0.1021                      |
+| VietOCR ([Vietnamese Handwritten Text Recognition Using TransformerOCR](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR)) | 0.1021                      |
 | CRNN/CTC ([Vietnamese Handwriting Recognition OCR](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR))             | 0.0476              |
-| Pretrained Transformer ([TrOCR Vietnamese (Our Model)](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main)) | 0.0653            |
+| Pre-trained Transformer ([TrOCR Vietnamese (Our Model)](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main)) | 0.0653            |
 
 
 ## Liên hệ
