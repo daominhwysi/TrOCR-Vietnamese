@@ -1,7 +1,5 @@
 # TrOCR Handwritten Vietnamese
 
-## Giới thiệu
-
 Dự án này là một mô hình nhận diện chữ viết tay tiếng Việt sử dụng TrOCR (Transformer-based Optical Character Recognition). Để cải thiện khả năng nhận diện, chúng tôi đã sử dụng PhoBERT làm tokenizer.
 
 ## Cấu hình Mô hình
