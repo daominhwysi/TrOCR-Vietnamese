@@ -25,21 +25,15 @@ Dự án này là một mô hình nhận diện chữ viết tay tiếng Việt 
 
 Pre-trained Model is available at [Hugging Face Model Hub](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main).
 
----
-
-## So sánh State-of-the-Art
----
-
 ## So sánh State-of-the-Art
 
-| Phương Pháp                                                                                                  | CER (Character Error Rate (Lower is better) |
+
+| Phương Pháp                                                                                                  | CER (Character Error Rate) |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------|
-| [Transformer-based](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR) | 0.1021                      |
-| [CRNN/CTC](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR)         | 0.0476                      |
-| [Pre-trained TransformerOCR Vietnamese (Our Model)](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main) | 0.0645                  |
----
+| Transformer ([Vietnamese Handwritten Text Recognition Using TransformerOCR](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR)) | 0.1021                      |
+| CRNN/CTC ([Vietnamese Handwriting Recognition OCR](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR))             | 0.0476              |
+| Pretrained Transformer ([TrOCR Vietnamese (Our Model)](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main)) | 0.0653            |
 
-Nếu cần thêm bất kỳ điều chỉnh nào, hãy cho tôi biết!
 
 ## Liên hệ
 
