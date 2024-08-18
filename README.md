@@ -41,6 +41,6 @@ Nếu bạn có bất kỳ câu hỏi nào hoặc cần thêm thông tin, vui l�
 
 ### Todo
 
-- [ ] Thêm PhoBERT để chữa lỗi ngữ pháp
+- [ ] Thêm PhoBART để chữa lỗi ngữ pháp
 - [ ] Sử dụng mô hình trocr-large-handwritten 
 - [ ] Sử dụng Dataset từ 5k ảnh chữ viết tay
