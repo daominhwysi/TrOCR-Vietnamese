@@ -23,8 +23,7 @@ Dự án này là một mô hình nhận diện chữ viết tay tiếng Việt 
 - **Validation Loss:** Mất mát trên tập dữ liệu kiểm tra.
 - **CER (Character Error Rate):** Tỷ lệ lỗi ký tự.
 
-
-Mô hình TrOCR base cho chữ viết tay tiếng Việt của bạn có thể được tải từ [Hugging Face Model Hub](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main).
+Pre-trained Model is available at [Hugging Face Model Hub](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main).
 
 ## Liên hệ
 
