@@ -24,14 +24,10 @@ Dự án này là một mô hình nhận diện chữ viết tay tiếng Việt 
 - **CER (Character Error Rate):** Tỷ lệ lỗi ký tự.
 
 Pre-trained Model is available at [Hugging Face Model Hub](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main).
-Dưới đây là bảng so sánh giữa mô hình TrOCR của bạn và các phương pháp state-of-the-art trong nhận diện chữ viết tay tiếng Việt:
 
 ---
 
 ## So sánh State-of-the-Art
-
-Dưới đây là bảng so sánh đã được điều chỉnh với các liên kết mô hình được đưa vào cột "Phương Pháp":
-
 ---
 
 ## So sánh State-of-the-Art
@@ -41,10 +37,6 @@ Dưới đây là bảng so sánh đã được điều chỉnh với các liên
 | [Transformer-based](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR) | 0.1021                      |
 | [CRNN/CTC](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR)         | 0.0476                      |
 | [Pre-trained TransformerOCR Vietnamese (Our Model)](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main) | 0.0645                  |
-
-**Chú thích:**
-- **CER (Character Error Rate):** Tỷ lệ lỗi ký tự, chỉ số đo độ chính xác của mô hình. Giá trị thấp hơn cho thấy mô hình có hiệu suất tốt hơn.
-
 ---
 
 Nếu cần thêm bất kỳ điều chỉnh nào, hãy cho tôi biết!
