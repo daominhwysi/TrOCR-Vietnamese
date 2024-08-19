@@ -9,31 +9,28 @@ Dự án này là một mô hình nhận diện chữ viết tay tiếng Việt 
 
 ## Kết quả Huấn luyện
 
-| Bước | Training Loss | Validation Loss | CER    |
-|------|---------------|-----------------|--------|
-| 400  | 0.088000      | 0.230644        | 0.077707 |
-| 800  | 0.053600      | 0.201272        | 0.073229 |
-| 1200 | 0.006400      | 0.218866        | 0.069131 |
-| 1600 | 0.004000      | 0.220150        | 0.064510 |
-| 2000 | 0.002700      | 0.220505        | 0.066606 |
-| 2400 | 0.000900      | 0.221266        | 0.065320 |
+| Mô hình                    | Số lượng tham số | CER   |
+|----------------------------|---------------------------|-------|
+| TrOCR handwritten base      | 348M                      | 0.064 |
+| TrOCR handwritten large     | 558M                      | 0.032    |
+
+Bảng này thể hiện sự khác biệt giữa hai mô hình TrOCR handwritten base và large về số lượng tham số và CER (Character Error Rate).
 
 **Chú thích:**
 - **Training Loss:** Mất mát trong quá trình huấn luyện.
 - **Validation Loss:** Mất mát trên tập dữ liệu kiểm tra.
 - **CER (Character Error Rate):** Tỷ lệ lỗi ký tự.
 
-Pre-trained Model is available at [Hugging Face Model Hub](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main).
+Pre-trained Base Model is available at [Hugging Face Model Hub](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main).
 
 ## So sánh State-of-the-Art
 
-
 | Phương Pháp                                                                                                  | CER (Character Error Rate) |
-|--------------------------------------------------------------------------------------------------------------|-----------------------------|
-| VietOCR ([Vietnamese Handwritten Text Recognition Using TransformerOCR](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR)) | 0.1021                      |
-| CRNN/CTC ([Vietnamese Handwriting Recognition OCR](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR))             | 0.0476              |
-| Pre-trained Transformer ([TrOCR Vietnamese](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main)) - Our Model | 0.0653            |
-
+|--------------------------------------------------------------------------------------------------------------|----------------------------|
+| VietOCR ([Vietnamese Handwritten Text Recognition Using TransformerOCR](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR)) | 0.1021                     |
+| CRNN/CTC ([Vietnamese Handwriting Recognition OCR](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR))             | 0.0476                     |
+| TrOCR + Rethinking Head ([VNHTR](https://github.com/nguyenhoanganh2002/vnhtr))                               | 7.87                       |
+| Pre-trained Transformer with PhoBERT ([Our Model](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main)) | **0.032**                    |
 
 ## Liên hệ
 
@@ -42,5 +39,5 @@ Nếu bạn có bất kỳ câu hỏi nào hoặc cần thêm thông tin, vui l�
 ### Todo
 
 - [ ] Thêm PhoBART để chữa lỗi ngữ pháp
-- [ ] Sử dụng mô hình trocr-large-handwritten 
+- [x] Sử dụng mô hình trocr-large-handwritten 
 - [ ] Sử dụng Dataset từ 5k ảnh chữ viết tay
