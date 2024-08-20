@@ -9,7 +9,7 @@ Dự án này là một mô hình nhận diện chữ viết tay tiếng Việt 
 
 ## Kết quả Huấn luyện
 
-| Mô hình                    | Số lượng tham số | CER   |
+| Mô hình                    | Số lượng tham số | CER ↓ |
 |----------------------------|---------------------------|-------|
 | TrOCR handwritten base      | 348M                      | 0.064 |
 | TrOCR handwritten large     | 558M                      | 0.025    |
@@ -25,7 +25,7 @@ Pre-trained Base Model is available at [Hugging Face Model Hub](https://huggingf
 
 ## So sánh State-of-the-Art
 
-| Phương Pháp                                                                                                  | CER (Character Error Rate) |
+| Phương Pháp                                                                                                  | CER ↓ |
 |--------------------------------------------------------------------------------------------------------------|----------------------------|
 | VietOCR ([Vietnamese Handwritten Text Recognition Using TransformerOCR](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR)) | 0.1021                     |
 | TrOCR + Rethinking Head ([VNHTR](https://github.com/nguyenhoanganh2002/vnhtr))                               | 0.078                      |
