@@ -12,7 +12,7 @@ Dự án này là một mô hình nhận diện chữ viết tay tiếng Việt 
 | Mô hình                    | Số lượng tham số | CER   |
 |----------------------------|---------------------------|-------|
 | TrOCR handwritten base      | 348M                      | 0.064 |
-| TrOCR handwritten large     | 558M                      | 0.032    |
+| TrOCR handwritten large     | 558M                      | 0.025    |
 
 Bảng này thể hiện sự khác biệt giữa hai mô hình TrOCR handwritten base và large về số lượng tham số và CER (Character Error Rate).
 
