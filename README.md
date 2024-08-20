@@ -30,7 +30,7 @@ Pre-trained Base Model is available at [Hugging Face Model Hub](https://huggingf
 | VietOCR ([Vietnamese Handwritten Text Recognition Using TransformerOCR](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR)) | 0.1021                     |
 | TrOCR + Rethinking Head ([VNHTR](https://github.com/nguyenhoanganh2002/vnhtr))                               | 0.078                      |
 | CRNN/CTC ([Vietnamese Handwriting Recognition OCR](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR))             | 0.0476                     |
-| Fine-tunning Pre-trained TrOCR ([Our Model](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main)) | **0.025**                    |
+| Fine-tunning TrOCR ([Our Model](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main)) | **0.025**                    |
 
 Bảng này tổng hợp các phương pháp nhận dạng chữ viết tay tiếng Việt và mức độ lỗi ký tự (CER) tương ứng.
 
