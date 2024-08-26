@@ -28,8 +28,8 @@ Bảng trên tổng hợp các phương pháp nhận dạng chữ viết tay ti�
 
 ### Pre-trained Model
 
-- [**TrOCR Handwritten Base**](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main)
-- [**TrOCR Handwritten Large**](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten/upload/main)
+- [**TrOCR Handwritten Base**](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/)
+- [**TrOCR Handwritten Large**](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten/)
 
 ## Liên hệ
 
