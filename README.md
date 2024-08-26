@@ -22,7 +22,7 @@ Dự án này phát triển một mô hình nhận dạng chữ viết tay tiế
 | VietOCR ([Vietnamese Handwritten Text Recognition Using TransformerOCR](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR)) | 0.1021|
 | TrOCR + Rethinking Head ([VNHTR](https://github.com/nguyenhoanganh2002/vnhtr))                               | 0.078 |
 | CRNN/CTC ([Vietnamese Handwriting Recognition OCR](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR)) | 0.0476|
-| Fine-tuning TrOCR ([Mô hình của chúng tôi](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten/upload/main)) | **0.025**|
+| Fine-tuning TrOCR ([Mô hình của chúng tôi](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten/)) | **0.025**|
 
 Bảng trên tổng hợp các phương pháp nhận dạng chữ viết tay tiếng Việt hàng đầu và kết quả CER tương ứng.
 
