@@ -26,7 +26,7 @@ Dự án này phát triển một mô hình nhận dạng chữ viết tay tiế
 
 Bảng trên tổng hợp các phương pháp nhận dạng chữ viết tay tiếng Việt hàng đầu và kết quả CER tương ứng.
 
-## Pre-trained Model
+### Pre-trained Model
 
 - [**TrOCR Handwritten Base**](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main)
 - [**TrOCR Handwritten Large**](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten/upload/main)
