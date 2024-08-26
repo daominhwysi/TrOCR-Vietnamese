@@ -36,6 +36,7 @@ Bảng trên tổng hợp các phương pháp nhận dạng chữ viết tay ti�
 Nếu có bất kỳ câu hỏi nào hoặc cần thêm thông tin, vui lòng liên hệ với tôi qua email tại daominhwysi@gmail.com hoặc qua Discord với tên người dùng daominhwysi.
 
 ### Todo
+https://arxiv.org/pdf/2105.07983
 
 - [ ] Tích hợp PhoBART để cải thiện phát hiện và sửa lỗi ngữ pháp.
 - [x] Triển khai mô hình trocr-large-handwritten.
