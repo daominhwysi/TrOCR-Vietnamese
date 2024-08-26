@@ -1,45 +1,42 @@
 # TrOCR Handwritten Vietnamese
 
-Dự án này là một mô hình nhận diện chữ viết tay tiếng Việt sử dụng TrOCR (Transformer-based Optical Character Recognition). Để cải thiện khả năng nhận diện, chúng tôi đã sử dụng PhoBERT làm tokenizer.
+Dự án này phát triển một mô hình nhận dạng chữ viết tay tiếng Việt, sử dụng TrOCR (Transformer-based Optical Character Recognition). Để cải thiện hiệu quả nhận dạng, chúng tôi đã tích hợp PhoBERT làm tokenizer.
 
 ## Cấu hình Mô hình
 
-- **Mô hình cơ sở (Base Model):** TrOCR Handwritten Base
+- **Mô hình nền tảng:** TrOCR Handwritten Base
 - **Tokenizer:** PhoBERT
 
 ## Kết quả Huấn luyện
 
 | Mô hình                    | Số lượng tham số | CER ↓ |
-|----------------------------|---------------------------|-------|
-| TrOCR handwritten base      | 348M                      | 0.064 |
-| TrOCR handwritten large     | 558M                      | 0.025    |
+|----------------------------|-----------------|-------|
+| TrOCR handwritten base      | 348M            | 0.064 |
+| TrOCR handwritten large     | 558M            | 0.025 |
 
-Bảng này thể hiện sự khác biệt giữa hai mô hình TrOCR handwritten base và large về số lượng tham số và CER (Character Error Rate).
+- **CER (Character Error Rate):** Tỷ lệ lỗi ký tự, giá trị càng thấp, mô hình càng chính xác.
+## So sánh với các phương pháp State-of-the-Art
 
-**Chú thích:**
-- **Training Loss:** Mất mát trong quá trình huấn luyện.
-- **Validation Loss:** Mất mát trên tập dữ liệu kiểm tra.
-- **CER (Character Error Rate):** Tỷ lệ lỗi ký tự.
+| Phương pháp                                                                                                  | CER ↓ |
+|--------------------------------------------------------------------------------------------------------------|-------|
+| VietOCR ([Vietnamese Handwritten Text Recognition Using TransformerOCR](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR)) | 0.1021|
+| TrOCR + Rethinking Head ([VNHTR](https://github.com/nguyenhoanganh2002/vnhtr))                               | 0.078 |
+| CRNN/CTC ([Vietnamese Handwriting Recognition OCR](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR)) | 0.0476|
+| Fine-tuning TrOCR ([Mô hình của chúng tôi](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten/upload/main)) | **0.025**|
 
-Pre-trained Base Model is available at [Hugging Face Model Hub](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main).
+Bảng trên tổng hợp các phương pháp nhận dạng chữ viết tay tiếng Việt hàng đầu và kết quả CER tương ứng.
 
-## So sánh State-of-the-Art
+## Pre-trained Model
 
-| Phương Pháp                                                                                                  | CER ↓ |
-|--------------------------------------------------------------------------------------------------------------|----------------------------|
-| VietOCR ([Vietnamese Handwritten Text Recognition Using TransformerOCR](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR)) | 0.1021                     |
-| TrOCR + Rethinking Head ([VNHTR](https://github.com/nguyenhoanganh2002/vnhtr))                               | 0.078                      |
-| CRNN/CTC ([Vietnamese Handwriting Recognition OCR](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR))             | 0.0476                     |
-| Fine-tunning TrOCR ([Our Model](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main)) | **0.025**                    |
-
-Bảng này tổng hợp các phương pháp nhận dạng chữ viết tay tiếng Việt và mức độ lỗi ký tự (CER) tương ứng.
+- [**TrOCR Handwritten Base**](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/tree/main)
+- [**TrOCR Handwritten Large**](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten/upload/main)
 
 ## Liên hệ
 
-Nếu bạn có bất kỳ câu hỏi nào hoặc cần thêm thông tin, vui lòng liên hệ với daominhwysi@gmail.com hoặc daominhwysi trên Discord.
+Nếu có bất kỳ câu hỏi nào hoặc cần thêm thông tin, vui lòng liên hệ với tôi qua email tại daominhwysi@gmail.com hoặc qua Discord với tên người dùng daominhwysi.
 
 ### Todo
 
-- [ ] Thêm PhoBART để chữa lỗi ngữ pháp
-- [x] Sử dụng mô hình trocr-large-handwritten 
-- [ ] Sử dụng Dataset từ 5k ảnh chữ viết tay
+- [ ] Tích hợp PhoBART để cải thiện phát hiện và sửa lỗi ngữ pháp.
+- [x] Triển khai mô hình trocr-large-handwritten.
+- [ ] Sử dụng Dataset từ 5k ảnh chữ viết tay để huấn luyện thêm.
