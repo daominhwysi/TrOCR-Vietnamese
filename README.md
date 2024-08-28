@@ -19,11 +19,11 @@ Dự án này phát triển một mô hình nhận dạng chữ viết tay tiế
 
 | Phương pháp                                                                                                  | CER ↓ |
 |--------------------------------------------------------------------------------------------------------------|-------|
-| Fine-tuning TrOCR ([1](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten/)) | **0.025** |
-| CRNN/CTC ([2](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR)) | 0.0476 |
-| TrOCR + Rethinking Head ([3](https://github.com/nguyenhoanganh2002/vnhtr))                               | 0.078 |
-| Attetion OCR ([4](https://github.com/tamlthari/vietnamese_handwritten_text_recognition_cinnamon_ocr)) | 0.081 |
-| VietOCR ([5](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR)) | 0.1021 |
+| Fine-tuning TrOCR [[1]](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten/) | **0.025** |
+| CRNN/CTC [[2]](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR) | 0.0476 |
+| TrOCR + Rethinking Head [[3]](https://github.com/nguyenhoanganh2002/vnhtr)                             | 0.078 |
+| Attetion OCR [[4]](https://github.com/tamlthari/vietnamese_handwritten_text_recognition_cinnamon_ocr) | 0.081 |
+| VietOCR [[5]](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR) | 0.1021 |
 
 ### Pre-trained Model
 
