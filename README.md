@@ -35,8 +35,8 @@ Dự án này phát triển một mô hình nhận dạng chữ viết tay tiế
 Nếu có bất kỳ câu hỏi nào hoặc cần thêm thông tin, vui lòng liên hệ với tôi qua email tại daominhwysi@gmail.com hoặc qua Discord với tên người dùng daominhwysi.
 
 ### Todo
-https://arxiv.org/pdf/2105.07983
 
+- [ ] https://arxiv.org/pdf/2105.07983
 - [ ] Tích hợp PhoBART để cải thiện phát hiện và sửa lỗi ngữ pháp.
 - [x] Triển khai mô hình trocr-large-handwritten.
-- [ ] Sử dụng Dataset từ 5k ảnh chữ viết tay để huấn luyện thêm.
+- [x] Sử dụng Dataset từ 5k ảnh chữ viết tay để huấn luyện thêm.
