@@ -1,34 +1,24 @@
 # TrOCR Handwritten Vietnamese
 
-Dự án này phát triển một mô hình nhận dạng chữ viết tay tiếng Việt, sử dụng TrOCR (Transformer-based Optical Character Recognition). Để cải thiện hiệu quả nhận dạng, chúng tôi đã tích hợp PhoBERT làm tokenizer.
+Dự án này phát triển một mô hình nhận dạng chữ viết tay tiếng Việt, sử dụng TrOCR (Transformer-based Optical Character Recognition). Để cải thiện hiệu quả nhận dạng, mình đã tích hợp PhoBERT làm tokenizer.
+# Datasets
 
-## Cấu hình Mô hình
-
-- **Mô hình nền tảng:** TrOCR Handwritten Base
-- **Tokenizer:** PhoBERT
+Datasets được lấy từ VNonDB và CinamonAI.
+https://huggingface.co/datasets/Daominhwysi/vietnamese_handwritten
 
 ## Kết quả Huấn luyện
 
 | Mô hình                    | Số lượng tham số | CER ↓ |
 |----------------------------|-----------------|-------|
-| TrOCR handwritten base      | 348M            | 0.064 |
-| TrOCR handwritten large     | 558M            | 0.025 |
+| TrOCR handwritten base      | 348M            | - |
+| TrOCR handwritten large     | 558M            | - |
 
 - **CER (Character Error Rate):** Tỷ lệ lỗi ký tự, giá trị càng thấp, mô hình càng chính xác.
-## So sánh với các phương pháp State-of-the-Art
-
-| Phương pháp                                                                                                  | CER ↓ |
-|--------------------------------------------------------------------------------------------------------------|-------|
-| Fine-tuning TrOCR [[1]](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten/) | **0.025** |
-| CRNN/CTC [[2]](https://github.com/TomHuynhSG/Vietnamese-Handwriting-Recognition-OCR) | 0.0476 |
-| TrOCR + Rethinking Head [[3]](https://github.com/nguyenhoanganh2002/vnhtr)                             | 0.078 |
-| Attetion OCR [[4]](https://github.com/tamlthari/vietnamese_handwritten_text_recognition_cinnamon_ocr) | 0.081 |
-| VietOCR [[5]](https://github.com/HungPham2002/Vietnamese-handwritten-text-recognition-using-TransformerOCR) | 0.1021 |
 
 ### Pre-trained Model
 
 - [**TrOCR Handwritten Base**](https://huggingface.co/Daominhwysi/trocr-base-vietnamese-handwritten/)
-- [**TrOCR Handwritten Large**](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten/)
+- [**TrOCR Handwritten Large**](https://huggingface.co/Daominhwysi/vietnamese-trocr-large-handwritten-v2/)
 
 ## Liên hệ
 
